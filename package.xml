@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package>
+    <name>ND_Alphabank</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Alpha Bank e-Commerce payment gateway integration.</summary>
+    <description>The extension provides Alpha Bank e-Commerce payment gateway integration.&#xD;
+&#xD;
+The service supports payments with debit, credit and prepaid cards:&#xD;
+&#xD;
+-	American Express&#xD;
+-	Visa, Visa Electron&#xD;
+-	MasterCard&#xD;
+-	Maestro&#xD;
+-	Diners</description>
+    <notes>First Stable Release Version 0.1.0</notes>
+    <authors><author><name>Nikul Doshi</name><user>nikulonline</user><email>nikulonline@gmail.com</email></author></authors>
+    <date>2014-08-12</date>
+    <time>10:07:41</time>
+    <contents><target name="magelocal"><dir name="ND"><dir name="Alphabank"><dir name="Block"><dir name="Checkout"><file name="Failure.php" hash="1fa882cc591743797193370f57b207ae"/><file name="Form.php" hash="41df72f7d3ac80ed063accfcfa93a034"/><file name="Redirect.php" hash="bf60abc16deb6adc4858359200100cdc"/><file name="Response.php" hash="69fc106e7605c66ac7d9d12987170643"/></dir><file name="Form.php" hash="33adbdca8d42d746d6d379d818212a7d"/><file name="Info.php" hash="f172d29235ab84f986090c8c4763c0f7"/><dir name="Payment"><file name="Info.php" hash="cf3715174750b0030fb548e6dd373fd5"/></dir></dir><dir name="Controller"><file name="Abstract.php" hash="6e545787a53a62d68d3179c7f082442b"/></dir><dir name="Helper"><file name="Data.php" hash="173fb1993d443eeb0cb7367d4499124b"/></dir><dir name="Model"><file name="Checkout.php" hash="64892fc0f8e04068b333b42d18373930"/><file name="Info.php" hash="e055fadf3b037c03a7b14358a3009a8b"/><dir name="System"><dir name="Config"><dir name="Source"><file name="Transaction.php" hash="b44e3bfd41581e798dad2f53da4f4ec8"/></dir></dir></dir></dir><dir name="controllers"><file name="CheckoutController.php" hash="988c8f685157384c222c7977f8d2c8aa"/></dir><dir name="etc"><file name="config.xml" hash="aa476a7e2aa8b149a5b375ba85b5753e"/><file name="system.xml" hash="0c8990a727d556bc915c8c959d868481"/></dir><dir name="sql"><dir name="migsvpc_setup"><file name="mysql4-install-0.1.0.php" hash="46a18f4f78b50db8cbcd18d73d315d8b"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="alphabank.xml" hash="1c312fed74b476b1cce3137b6452e4ff"/></dir><dir name="template"><dir name="alphabank"><dir name="checkout"><file name="form.phtml" hash="e3705bae565e3580c7a1ac6cb99c6a7f"/><file name="response.phtml" hash="8a3f5b9be4901568104472399b1b1398"/></dir><file name="form.phtml" hash="ea5eb22101b12a887523f4eb50e84d9f"/><file name="info.phtml" hash="c13fe64ae97929b3b732d25b695527ea"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="ND_Alphabank.xml" hash="a74257cc6246b1f6252bb73136562b1f"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
