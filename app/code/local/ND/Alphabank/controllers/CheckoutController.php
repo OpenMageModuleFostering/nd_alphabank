@@ -20,7 +20,7 @@ class ND_Alphabank_CheckoutController extends ND_Alphabank_Controller_Abstract
         elseif($responseParams['status']==ND_Alphabank_Model_Info::PAYMENTSTATUS_REFUSED)
         {            
             $userMessageAry = explode("-",$responseParams['message']);
-            $userMessage = (count($userMessage)>1)?$userMessageAry[1]:$userMessageAry[0];
+            $userMessage = (count($userMessageAry)>1)?$userMessageAry[1]:$userMessageAry[0];
             $order = Mage::getModel('sales/order');
             $order->loadByIncrementId($responseParams['orderid']);
             $order->addStatusToHistory($order->getStatus(), $responseParams['message']);
