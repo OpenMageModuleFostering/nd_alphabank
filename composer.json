@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/ND_Alphabank",
+    "name": "OpenMageModuleFostering\/ND_Alphabank",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "Alpha Bank e-Commerce payment gateway integration.",
     "authors": [
-    {
-        "name": "Nikul Doshi",
-        "email": "nikulonline@gmail.com"
-    }
-],
+        {
+            "name": "Nikul Doshi",
+            "email": "nikulonline@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
